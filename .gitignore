@@ -1,0 +1,5 @@
+# Meta data directory of exercism
+.exercism
+
+# VS Code directory with user specific config
+.vscode
