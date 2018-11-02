@@ -22,20 +22,15 @@ func appendBasedOnCondition(input string, appendContent string, condition bool) 
 
 // Convert converts a number to a special string
 func Convert(input int) string {
-
-	divisibleByThree := divisibleBy(input, 3)
-	divisibleByFive := divisibleBy(input, 5)
-	divisibleBySeven := divisibleBy(input, 7)
-
-	if !divisibleByThree && !divisibleByFive && !divisibleBySeven {
-		return strconv.Itoa(input)
-	}
-
 	output := ""
 
-	output = appendBasedOnCondition(output, "Pling", divisibleByThree)
-	output = appendBasedOnCondition(output, "Plang", divisibleByFive)
-	output = appendBasedOnCondition(output, "Plong", divisibleBySeven)
+	output = appendBasedOnCondition(output, "Pling", divisibleBy(input, 3))
+	output = appendBasedOnCondition(output, "Plang", divisibleBy(input, 5))
+	output = appendBasedOnCondition(output, "Plong", divisibleBy(input, 7))
+
+	if output == "" {
+		return strconv.Itoa(input)
+	}
 
 	return output
 }
