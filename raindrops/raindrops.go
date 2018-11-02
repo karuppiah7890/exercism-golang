@@ -1,6 +1,9 @@
 package raindrops
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func divisibleBy(input int, number int) bool {
 	if input%number == 0 {
@@ -25,7 +28,7 @@ func Convert(input int) string {
 	divisibleBySeven := divisibleBy(input, 7)
 
 	if !divisibleByThree && !divisibleByFive && !divisibleBySeven {
-		return fmt.Sprintf("%v", input)
+		return strconv.Itoa(input)
 	}
 
 	output := ""
