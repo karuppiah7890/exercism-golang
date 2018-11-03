@@ -9,7 +9,7 @@ func Convert(input int) string {
 	output := ""
 
 	if input%3 == 0 {
-		output += "Pling"
+		output = "Pling"
 	}
 	if input%5 == 0 {
 		output += "Plang"

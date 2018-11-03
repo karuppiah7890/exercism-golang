@@ -2,6 +2,6 @@
 --- PASS: TestConvert (0.00s)
 goos: darwin
 goarch: amd64
-BenchmarkConvert-8   	 3000000	       407 ns/op	      80 B/op	       5 allocs/op
+BenchmarkConvert-8   	 5000000	       350 ns/op	      80 B/op	       5 allocs/op
 PASS
-ok  	_/Users/karuppiah/Exercism/go/raindrops	1.657s
+ok  	_/Users/karuppiah/Exercism/go/raindrops	2.127s
