@@ -4,21 +4,19 @@ import (
 	"strconv"
 )
 
-func appendBasedOnCondition(input string, appendContent string, condition bool) string {
-	if condition {
-		return input + appendContent
-	}
-
-	return input
-}
-
 // Convert converts a number to a special string
 func Convert(input int) string {
 	output := ""
 
-	output = appendBasedOnCondition(output, "Pling", input%3 == 0)
-	output = appendBasedOnCondition(output, "Plang", input%5 == 0)
-	output = appendBasedOnCondition(output, "Plong", input%7 == 0)
+	if input%3 == 0 {
+		output += "Pling"
+	}
+	if input%5 == 0 {
+		output += "Plang"
+	}
+	if input%7 == 0 {
+		output += "Plong"
+	}
 
 	if output == "" {
 		return strconv.Itoa(input)

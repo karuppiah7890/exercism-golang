@@ -1,5 +1,7 @@
+=== RUN   TestConvert
+--- PASS: TestConvert (0.00s)
 goos: darwin
 goarch: amd64
-BenchmarkConvert-8   	 3000000	       401 ns/op	      80 B/op	       5 allocs/op
+BenchmarkConvert-8   	 3000000	       407 ns/op	      80 B/op	       5 allocs/op
 PASS
-ok  	_/Users/karuppiah/Exercism/go/raindrops	1.628s
+ok  	_/Users/karuppiah/Exercism/go/raindrops	1.657s
