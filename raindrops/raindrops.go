@@ -5,10 +5,6 @@ import (
 	"strconv"
 )
 
-func divisibleBy(input int, number int) bool {
-	return input%number == 0
-}
-
 func appendBasedOnCondition(input string, appendContent string, condition bool) string {
 	if condition {
 		return fmt.Sprintf("%v%v", input, appendContent)
@@ -21,9 +17,9 @@ func appendBasedOnCondition(input string, appendContent string, condition bool) 
 func Convert(input int) string {
 	output := ""
 
-	output = appendBasedOnCondition(output, "Pling", divisibleBy(input, 3))
-	output = appendBasedOnCondition(output, "Plang", divisibleBy(input, 5))
-	output = appendBasedOnCondition(output, "Plong", divisibleBy(input, 7))
+	output = appendBasedOnCondition(output, "Pling", input%3 == 0)
+	output = appendBasedOnCondition(output, "Plang", input%5 == 0)
+	output = appendBasedOnCondition(output, "Plong", input%7 == 0)
 
 	if output == "" {
 		return strconv.Itoa(input)
