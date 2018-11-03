@@ -6,10 +6,7 @@ import (
 )
 
 func divisibleBy(input int, number int) bool {
-	if input%number == 0 {
-		return true
-	}
-	return false
+	return input%number == 0
 }
 
 func appendBasedOnCondition(input string, appendContent string, condition bool) string {

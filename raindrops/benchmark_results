@@ -1,5 +1,5 @@
 goos: darwin
 goarch: amd64
-BenchmarkConvert-8   	  500000	      3120 ns/op	     544 B/op	      45 allocs/op
+BenchmarkConvert-8   	  500000	      3116 ns/op	     544 B/op	      45 allocs/op
 PASS
-ok  	_/Users/karuppiah/Exercism/go/raindrops	1.605s
+ok  	_/Users/karuppiah/Exercism/go/raindrops	1.599s
