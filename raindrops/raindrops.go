@@ -1,13 +1,12 @@
 package raindrops
 
 import (
-	"fmt"
 	"strconv"
 )
 
 func appendBasedOnCondition(input string, appendContent string, condition bool) string {
 	if condition {
-		return fmt.Sprintf("%v%v", input, appendContent)
+		return input + appendContent
 	}
 
 	return input
