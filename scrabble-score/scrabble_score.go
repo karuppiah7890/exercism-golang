@@ -2,33 +2,63 @@ package scrabble
 
 import "unicode"
 
-var letterValues = map[rune]int{
-	'a': 1,
-	'e': 1,
-	'i': 1,
-	'o': 1,
-	'u': 1,
-	'l': 1,
-	'n': 1,
-	'r': 1,
-	's': 1,
-	't': 1,
-	'd': 2,
-	'g': 2,
-	'b': 3,
-	'c': 3,
-	'm': 3,
-	'p': 3,
-	'f': 4,
-	'h': 4,
-	'v': 4,
-	'w': 4,
-	'y': 4,
-	'k': 5,
-	'j': 8,
-	'x': 8,
-	'q': 10,
-	'z': 10,
+func getScore(letter rune) int {
+	switch letter {
+	case 'a':
+		fallthrough
+	case 'e':
+		fallthrough
+	case 'i':
+		fallthrough
+	case 'o':
+		fallthrough
+	case 'u':
+		fallthrough
+	case 'l':
+		fallthrough
+	case 'n':
+		fallthrough
+	case 'r':
+		fallthrough
+	case 's':
+		fallthrough
+	case 't':
+		return 1
+	case 'd':
+		fallthrough
+	case 'g':
+		return 2
+	case 'b':
+		fallthrough
+	case 'c':
+		fallthrough
+	case 'm':
+		fallthrough
+	case 'p':
+		return 3
+	case 'f':
+		fallthrough
+	case 'h':
+		fallthrough
+	case 'v':
+		fallthrough
+	case 'w':
+		fallthrough
+	case 'y':
+		return 4
+	case 'k':
+		return 5
+	case 'j':
+		fallthrough
+	case 'x':
+		return 8
+	case 'q':
+		fallthrough
+	case 'z':
+		return 10
+	default:
+		return 0
+	}
 }
 
 // Score finds the scrabble score for a word
@@ -37,7 +67,7 @@ func Score(word string) int {
 
 	for _, letter := range word {
 		lowerCaseLetter := unicode.ToLower(letter)
-		score += letterValues[lowerCaseLetter]
+		score += getScore(lowerCaseLetter)
 	}
 
 	return score
