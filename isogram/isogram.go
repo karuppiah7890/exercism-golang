@@ -10,7 +10,7 @@ func IsIsogram(input string) bool {
 		lowerCaseLetter := unicode.ToLower(letter)
 		letterCount[lowerCaseLetter]++
 
-		if letterCount[lowerCaseLetter] > 1 {
+		if letterCount[lowerCaseLetter] > 1 && lowerCaseLetter != '-' && lowerCaseLetter != ' ' {
 			return false
 		}
 	}
