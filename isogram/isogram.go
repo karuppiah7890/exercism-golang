@@ -7,10 +7,14 @@ func IsIsogram(input string) bool {
 	letterCount := make(map[rune]int)
 
 	for _, letter := range input {
+		if letter == '-' || letter == ' ' {
+			continue
+		}
+
 		lowerCaseLetter := unicode.ToLower(letter)
 		letterCount[lowerCaseLetter]++
 
-		if letterCount[lowerCaseLetter] > 1 && lowerCaseLetter != '-' && lowerCaseLetter != ' ' {
+		if letterCount[lowerCaseLetter] > 1 {
 			return false
 		}
 	}
