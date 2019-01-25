@@ -7,7 +7,7 @@ func IsIsogram(input string) bool {
 	letterCount := make(map[rune]int)
 
 	for _, letter := range input {
-		if letter == '-' || letter == ' ' {
+		if !unicode.IsLetter(letter) {
 			continue
 		}
 

@@ -14,6 +14,6 @@
     isogram_test.go:11: PASS: Word "angola"
 goos: darwin
 goarch: amd64
-BenchmarkIsIsogram-8   	  200000	      5634 ns/op	    2449 B/op	      11 allocs/op
+BenchmarkIsIsogram-8   	  200000	      5803 ns/op	    2449 B/op	      11 allocs/op
 PASS
-ok  	_/Users/karuppiah/Exercism/go/isogram	1.196s
+ok  	_/Users/karuppiah/Exercism/go/isogram	1.232s
