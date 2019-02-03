@@ -9,6 +9,11 @@ import (
 
 // Hey returns bob's response to a remark
 func Hey(remark string) string {
+	remark = strings.TrimSpace(remark)
+	if len(remark) == 0 {
+		return "Fine. Be that way!"
+	}
+
 	numberOfLetters, numberOfUpperCaseLetters := 0, 0
 	for _, letter := range remark {
 		if !unicode.IsLetter(letter) {
