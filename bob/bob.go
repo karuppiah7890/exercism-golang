@@ -21,6 +21,10 @@ func Hey(remark string) string {
 		}
 	}
 
+	if shouting && question {
+		return "Calm down, I know what I'm doing!"
+	}
+
 	if shouting {
 		return "Whoa, chill out!"
 	}
