@@ -6,8 +6,8 @@ import "unicode"
 
 // Hey returns bob's response to a remark
 func Hey(remark string) string {
-	shouting := true
 	question := false
+	numberOfLetters, numberOfUpperCaseLetters := 0, 0
 	for _, letter := range remark {
 		if !unicode.IsLetter(letter) {
 			if letter == '?' {
@@ -16,9 +16,17 @@ func Hey(remark string) string {
 			continue
 		}
 
-		if unicode.IsLower(letter) {
-			shouting = false
+		numberOfLetters++
+
+		if unicode.IsUpper(letter) {
+			numberOfUpperCaseLetters++
 		}
+	}
+
+	shouting := false
+
+	if numberOfLetters > 0 && numberOfUpperCaseLetters == numberOfLetters {
+		shouting = true
 	}
 
 	if shouting && question {
