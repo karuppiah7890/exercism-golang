@@ -5,6 +5,7 @@ package acronym
 import (
 	"fmt"
 	"strings"
+	"unicode"
 )
 
 // Abbreviate abbreviates a given sentence or phrase
@@ -13,7 +14,7 @@ func Abbreviate(input string) string {
 	abbreviation := ""
 
 	for _, word := range words {
-		abbreviation = fmt.Sprintf("%v%c", abbreviation, rune(word[0]))
+		abbreviation = fmt.Sprintf("%v%c", abbreviation, unicode.ToUpper(rune(word[0])))
 	}
 
 	return abbreviation
