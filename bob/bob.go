@@ -7,8 +7,12 @@ import "unicode"
 // Hey returns bob's response to a remark
 func Hey(remark string) string {
 	shouting := true
+	question := false
 	for _, letter := range remark {
 		if !unicode.IsLetter(letter) {
+			if letter == '?' {
+				question = true
+			}
 			continue
 		}
 
@@ -19,6 +23,10 @@ func Hey(remark string) string {
 
 	if shouting {
 		return "Whoa, chill out!"
+	}
+
+	if question {
+		return "Sure."
 	}
 
 	return "Whatever."
