@@ -1,0 +1,7 @@
+=== RUN   TestLeapYears
+--- PASS: TestLeapYears (0.00s)
+goos: darwin
+goarch: amd64
+Benchmark400-8   	 3000000	       452 ns/op	       0 B/op	       0 allocs/op
+PASS
+ok  	_/Users/karuppiah/Exercism/go/leap	1.823s
