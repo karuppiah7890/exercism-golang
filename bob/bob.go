@@ -33,8 +33,9 @@ func Hey(remark string) string {
 	}
 
 	question := false
-	indexOfQuestionMark := strings.LastIndexByte(remark, '?')
-	if indexOfQuestionMark == len(remark)-1 {
+	length := len(remark)
+	lastCharacter := rune(remark[length-1])
+	if lastCharacter == '?' {
 		question = true
 	}
 
