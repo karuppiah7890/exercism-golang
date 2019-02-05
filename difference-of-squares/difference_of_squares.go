@@ -2,10 +2,7 @@ package diffsquares
 
 // SquareOfSum returns the square of the sum of first n natural numbers
 func SquareOfSum(n int) int {
-	sum := 0
-	for i := 1; i <= n; i++ {
-		sum += i
-	}
+	sum := n * (n + 1) / 2
 	return sum * sum
 }
 
