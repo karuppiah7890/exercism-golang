@@ -3,3 +3,9 @@
 
 # VS Code directory with user specific config
 .vscode
+
+# test binaries
+*.test
+
+# profiling files
+*.prof
