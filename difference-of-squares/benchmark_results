@@ -6,8 +6,8 @@
 --- PASS: TestDifference (0.00s)
 goos: darwin
 goarch: amd64
-BenchmarkSquareOfSum-8    	2000000000	         0.28 ns/op	       0 B/op	       0 allocs/op
-BenchmarkSumOfSquares-8   	30000000	        52.0 ns/op	       0 B/op	       0 allocs/op
-BenchmarkDifference-8     	30000000	        55.4 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSquareOfSum-8    	2000000000	         0.29 ns/op	       0 B/op	       0 allocs/op
+BenchmarkSumOfSquares-8   	2000000000	         0.29 ns/op	       0 B/op	       0 allocs/op
+BenchmarkDifference-8     	2000000000	         0.28 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	_/Users/karuppiah/Exercism/go/difference-of-squares	3.938s
+ok  	_/Users/karuppiah/Exercism/go/difference-of-squares	1.825s
