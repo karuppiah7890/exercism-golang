@@ -1,0 +1,7 @@
+=== RUN   TestAcronym
+--- PASS: TestAcronym (0.00s)
+goos: darwin
+goarch: amd64
+BenchmarkAcronym-8   	  200000	      8011 ns/op	    1857 B/op	     122 allocs/op
+PASS
+ok  	_/Users/karuppiah/Exercism/go/acronym	1.853s
