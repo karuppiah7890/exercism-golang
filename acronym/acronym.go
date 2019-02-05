@@ -3,7 +3,6 @@
 package acronym
 
 import (
-	"fmt"
 	"strings"
 	"unicode"
 )
@@ -12,15 +11,15 @@ import (
 func Abbreviate(input string) string {
 	input = strings.Replace(input, "-", " ", -1)
 	words := strings.Split(input, " ")
-	abbreviation := ""
+	abbreviation := make([]rune, 0)
 
 	for _, word := range words {
 		if len(word) == 0 {
 			continue
 		}
 		letter := unicode.ToUpper(rune(word[0]))
-		abbreviation = fmt.Sprintf("%v%c", abbreviation, letter)
+		abbreviation = append(abbreviation, letter)
 	}
 
-	return abbreviation
+	return string(abbreviation)
 }
