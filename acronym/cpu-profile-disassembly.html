@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pprof listing</title>
+<style type="text/css">
+body {
+font-family: sans-serif;
+}
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 4px;
+}
+.legend {
+  font-size: 1.25em;
+}
+.line, .nop, .unimportant {
+  color: #aaaaaa;
+}
+.inlinesrc {
+  color: #000066;
+}
+.deadsrc {
+cursor: pointer;
+}
+.deadsrc:hover {
+background-color: #eeeeee;
+}
+.livesrc {
+color: #0000ff;
+cursor: pointer;
+}
+.livesrc:hover {
+background-color: #eeeeee;
+}
+.asm {
+color: #008800;
+display: none;
+}
+</style>
+<script type="text/javascript">
+function pprof_toggle_asm(e) {
+  var target;
+  if (!e) e = window.event;
+  if (e.target) target = e.target;
+  else if (e.srcElement) target = e.srcElement;
+
+  if (target) {
+    var asm = target.nextSibling;
+    if (asm && asm.className == "asm") {
+      asm.style.display = (asm.style.display == "block" ? "" : "block");
+      e.preventDefault();
+      return false;
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="legend">File: acronym.test<br>
+Type: cpu<br>
+Time: Feb 6, 2019 at 6:58am (IST)<br>
+Duration: 2.03s, Total samples = 1.78s (87.82%)<br>Total: 1.78s</div><h2>_/Users/karuppiah/Exercism/go/acronym.Abbreviate</h2><p class="filename">/Users/karuppiah/Exercism/go/acronym/acronym.go</p>
+<pre onClick="pprof_toggle_asm(event)">
+  Total:           0      330ms (flat, cum) 18.54%
+<span class=line>      6</span> <span class=nop>           .          .           	&#34;strings&#34; </span>
+<span class=line>      7</span> <span class=nop>           .          .           	&#34;unicode&#34; </span>
+<span class=line>      8</span> <span class=nop>           .          .           ) </span>
+<span class=line>      9</span> <span class=nop>           .          .            </span>
+<span class=line>     10</span> <span class=nop>           .          .           // Abbreviate abbreviates a given sentence or phrase </span>
+<span class=line>     11</span> <span class=deadsrc>           .          .           func Abbreviate(input string) string { </span><span class=asm>                   .          .  10f0110:     MOVQ GS:0x30, CX                                                             <span class=unimportant>acronym.go:11</span>
+                   .          .  10f0119:     LEAQ -0x8(SP), AX                                                            <span class=unimportant>acronym.go:11</span>
+                   .          .  10f011e:     CMPQ 0x10(CX), AX                                                            <span class=unimportant>acronym.go:11</span>
+                   .          .  10f0122:     JBE 0x10f025d                                                                <span class=unimportant>acronym.go:11</span>
+                   .          .  10f0128:     SUBQ $0x88, SP                                                               <span class=unimportant>acronym.go:11</span>
+                   .          .  10f012f:     MOVQ BP, 0x80(SP)                                                            <span class=unimportant>acronym.go:11</span>
+                   .          .  10f0137:     LEAQ 0x80(SP), BP                                                            <span class=unimportant>acronym.go:11</span>
+                                     ⋮
+                   .          .  10f025d:     CALL runtime.morestack_noctxt(SB)                                            <span class=unimportant>acronym.go:11</span>
+                   .          .  10f0262:     JMP _/Users/karuppiah/Exercism/go/acronym.Abbreviate(SB)                     <span class=unimportant>acronym.go:11</span>
+                   .          .  10f0267:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f0268:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f0269:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f026a:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f026b:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f026c:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f026d:     INT $0x3                                                                     <span class=unimportant></span>
+                   .          .  10f026e:     INT $0x3                                                                     <span class=unimportant></span>
+</span>
+<span class=line>     12</span> <span class=deadsrc>           .       40ms           	input = strings.Replace(input, &#34;-&#34;, &#34; &#34;, -1) </span><span class=asm>                   .          .  10f013f:             MOVQ 0x90(SP), AX                                                    <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0147:             MOVQ AX, 0(SP)                                                       <span class=unimportant>acronym.go:12</span>
+                   .          .  10f014b:             MOVQ 0x98(SP), AX                                                    <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0153:             MOVQ AX, 0x8(SP)                                                     <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0158:             LEAQ go.string.*+6(SB), AX                                           <span class=unimportant>acronym.go:12</span>
+                   .          .  10f015f:             MOVQ AX, 0x10(SP)                                                    <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0164:             MOVQ $0x1, 0x18(SP)                                                  <span class=unimportant>acronym.go:12</span>
+                   .          .  10f016d:             LEAQ go.string.*(SB), AX                                             <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0174:             MOVQ AX, 0x20(SP)                                                    <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0179:             MOVQ $0x1, 0x28(SP)                                                  <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0182:             MOVQ $-0x1, 0x30(SP)                                                 <span class=unimportant>acronym.go:12</span>
+                   .       40ms  10f018b:             CALL strings.Replace(SB)                                             <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0190:             MOVQ 0x38(SP), AX                                                    <span class=unimportant>acronym.go:12</span>
+                   .          .  10f0195:             MOVQ 0x40(SP), CX                                                    <span class=unimportant>acronym.go:12</span>
+</span>
+<span class=line>     13</span> <span class=deadsrc>           .      240ms           	words := strings.Split(input, &#34; &#34;) </span><span class=asm>                   .          .  10f019a:             MOVQ AX, 0(SP)                                                       <span class=unimportant>acronym.go:13</span>
+                   .          .  10f019e:             MOVQ CX, 0x8(SP)                                                     <span class=unimportant>acronym.go:13</span>
+                   .          .  10f01a3:             LEAQ go.string.*(SB), AX                                             <span class=unimportant>acronym.go:13</span>
+                   .          .  10f01aa:             MOVQ AX, 0x10(SP)                                                    <span class=unimportant>acronym.go:13</span>
+                   .          .  10f01af:             MOVQ $0x1, 0x18(SP)                                                  <span class=unimportant>acronym.go:13</span>
+                   .      240ms  10f01b8:             CALL strings.Split(SB)                                               <span class=unimportant>acronym.go:13</span>
+                   .          .  10f01bd:             MOVQ 0x28(SP), AX                                                    <span class=unimportant>acronym.go:13</span>
+                   .          .  10f01c2:             MOVQ 0x20(SP), CX                                                    <span class=unimportant>acronym.go:13</span>
+                                     ⋮
+                   .          .  10f01d9:             MOVQ AX, 0x48(SP)                                                    <span class=unimportant>acronym.go:13</span>
+                   .          .  10f01de:             XORL DX, DX                                                          <span class=unimportant>acronym.go:13</span>
+</span>
+<span class=line>     14</span> <span class=deadsrc>           .          .           	abbreviation := strings.Builder{} </span><span class=asm>                   .          .  10f01c7:             XORPS X0, X0                                                         <span class=unimportant>acronym.go:14</span>
+                   .          .  10f01ca:             MOVUPS X0, 0x60(SP)                                                  <span class=unimportant>acronym.go:14</span>
+                   .          .  10f01cf:             MOVUPS X0, 0x70(SP)                                                  <span class=unimportant>acronym.go:14</span>
+</span>
+<span class=line>     15</span> <span class=nop>           .          .            </span>
+<span class=line>     16</span> <span class=deadsrc>           .          .           	for _, word := range words { </span><span class=asm>                   .          .  10f01d4:             TESTQ AX, AX                                                         <span class=unimportant>acronym.go:16</span>
+                   .          .  10f01d7:             JLE 0x10f01f8                                                        <span class=unimportant>acronym.go:16</span>
+                                     ⋮
+                   .          .  10f01e0:             JMP 0x10f01e6                                                        <span class=unimportant>acronym.go:16</span>
+                   .          .  10f01e2:             ADDQ $0x10, CX                                                       <span class=unimportant>acronym.go:16</span>
+                   .          .  10f01e6:             MOVQ 0(CX), BX                                                       <span class=unimportant>acronym.go:16</span>
+                                     ⋮
+                   .          .  10f01f0:             INCQ DX                                                              <span class=unimportant>acronym.go:16</span>
+                   .          .  10f01f3:             CMPQ AX, DX                                                          <span class=unimportant>acronym.go:16</span>
+                   .          .  10f01f6:             JL 0x10f01e2                                                         <span class=unimportant>acronym.go:16</span>
+                   .          .  10f01f8:             LEAQ 0x68(SP), AX                                                    <span class=unimportant>builder.go:47</span>
+                   .          .  10f01fd:             TESTB AL, 0(AX)                                                      <span class=unimportant>builder.go:47</span>
+                   .          .  10f01ff:             MOVQ 0x68(SP), AX                                                    <span class=unimportant>builder.go:47</span>
+                   .          .  10f0204:             MOVQ 0x70(SP), CX                                                    <span class=unimportant>builder.go:47</span>
+                                     ⋮
+                   .          .  10f0229:             MOVQ CX, 0x58(SP)                                                    <span class=unimportant>acronym.go:16</span>
+                   .          .  10f022e:             MOVQ DX, 0x50(SP)                                                    <span class=unimportant>acronym.go:16</span>
+                                     ⋮
+                   .          .  10f024c:             MOVQ 0x48(SP), AX                                                    <span class=unimportant>acronym.go:16</span>
+                   .          .  10f0251:             MOVQ 0x58(SP), CX                                                    <span class=unimportant>acronym.go:16</span>
+                   .          .  10f0256:             MOVQ 0x50(SP), DX                                                    <span class=unimportant>acronym.go:16</span>
+</span>
+<span class=line>     17</span> <span class=deadsrc>           .          .           		if len(word) == 0 { </span><span class=asm>                   .          .  10f01e9:                     CMPQ $0x0, 0x8(CX)                                           <span class=unimportant>acronym.go:17</span>
+                   .          .  10f01ee:                     JNE 0x10f0229                                                <span class=unimportant>acronym.go:17</span>
+</span>
+<span class=line>     18</span> <span class=nop>           .          .           			continue </span>
+<span class=line>     19</span> <span class=nop>           .          .           		} </span>
+<span class=line>     20</span> <span class=deadsrc>           .          .           		letter := unicode.ToUpper(rune(word[0])) </span><span class=asm>                   .          .  10f0233:                     MOVZX 0(BX), AX                                              <span class=unimportant>acronym.go:20</span>
+                   .          .  10f0236:                     MOVL AX, 0(SP)                                               <span class=unimportant>acronym.go:20</span>
+                   .          .  10f0239:                     CALL unicode.ToUpper(SB)                                     <span class=unimportant>acronym.go:20</span>
+</span>
+<span class=line>     21</span> <span class=deadsrc>           .       50ms           		abbreviation.WriteRune(letter) </span><span class=asm>                   .          .  10f023e:                     LEAQ 0x60(SP), AX                                            <span class=unimportant>acronym.go:21</span>
+                   .          .  10f0243:                     MOVQ AX, 0(SP)                                               <span class=unimportant>acronym.go:21</span>
+                   .       50ms  10f0247:                     CALL strings.(*Builder).WriteRune(SB)                        <span class=unimportant>acronym.go:21</span>
+                                     ⋮
+                   .          .  10f025b:                     JMP 0x10f01f0                                                <span class=unimportant>acronym.go:21</span>
+</span>
+<span class=line>     22</span> <span class=nop>           .          .           	} </span>
+<span class=line>     23</span> <span class=nop>           .          .            </span>
+<span class=line>     24</span> <span class=deadsrc>           .          .           	return abbreviation.String() </span><span class=asm>                   .          .  10f0209:             MOVQ AX, 0xa0(SP)                                                    <span class=unimportant>acronym.go:24</span>
+                   .          .  10f0211:             MOVQ CX, 0xa8(SP)                                                    <span class=unimportant>acronym.go:24</span>
+                   .          .  10f0219:             MOVQ 0x80(SP), BP                                                    <span class=unimportant>acronym.go:24</span>
+                   .          .  10f0221:             ADDQ $0x88, SP                                                       <span class=unimportant>acronym.go:24</span>
+                   .          .  10f0228:             RET                                                                  <span class=unimportant>acronym.go:24</span>
+</span>
+<span class=line>     25</span> <span class=nop>           .          .           } </span>
+</pre>
+
+</body>
+</html>
+
