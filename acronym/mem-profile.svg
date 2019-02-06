@@ -293,406 +293,355 @@ function handleMouseUp(evt) {
 		state = '';
 	}
 }
-]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 812)">
+]]></script><g id="viewport" transform="scale(0.5,0.5) translate(0,0)"><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 700)">
 <title>acronym.test</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-812 941.7861,-812 941.7861,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-700 721.2734,-700 721.2734,4 -4,4"/>
 <g id="clust1" class="cluster">
 <title>cluster_L</title>
-<polygon fill="none" stroke="#000000" points="8,-696 8,-800 488,-800 488,-696 8,-696"/>
+<polygon fill="none" stroke="#000000" points="8,-584 8,-688 488,-688 488,-584 8,-584"/>
 </g>
 <!-- File: acronym.test -->
 <g id="node1" class="node">
 <title>File: acronym.test</title>
 <g id="a_node1"><a xlink:title="acronym.test">
-<polygon fill="#f8f8f8" stroke="#000000" points="479.9688,-792 16.0312,-792 16.0312,-704 479.9688,-704 479.9688,-792"/>
-<text text-anchor="start" x="24.0156" y="-775.2" font-family="Times,serif" font-size="16.00" fill="#000000">File: acronym.test</text>
-<text text-anchor="start" x="24.0156" y="-759.2" font-family="Times,serif" font-size="16.00" fill="#000000">Type: alloc_space</text>
-<text text-anchor="start" x="24.0156" y="-743.2" font-family="Times,serif" font-size="16.00" fill="#000000">Time: Feb 5, 2019 at 9:08pm (IST)</text>
-<text text-anchor="start" x="24.0156" y="-727.2" font-family="Times,serif" font-size="16.00" fill="#000000">Showing nodes accounting for 554.55MB, 99.53% of 557.16MB total</text>
-<text text-anchor="start" x="24.0156" y="-711.2" font-family="Times,serif" font-size="16.00" fill="#000000">Dropped 13 nodes (cum &lt;= 2.79MB)</text>
+<polygon fill="#f8f8f8" stroke="#000000" points="479.9688,-680 16.0312,-680 16.0312,-592 479.9688,-592 479.9688,-680"/>
+<text text-anchor="start" x="24.0156" y="-663.2" font-family="Times,serif" font-size="16.00" fill="#000000">File: acronym.test</text>
+<text text-anchor="start" x="24.0156" y="-647.2" font-family="Times,serif" font-size="16.00" fill="#000000">Type: alloc_space</text>
+<text text-anchor="start" x="24.0156" y="-631.2" font-family="Times,serif" font-size="16.00" fill="#000000">Time: Feb 6, 2019 at 6:58am (IST)</text>
+<text text-anchor="start" x="24.0156" y="-615.2" font-family="Times,serif" font-size="16.00" fill="#000000">Showing nodes accounting for 920.10MB, 99.72% of 922.70MB total</text>
+<text text-anchor="start" x="24.0156" y="-599.2" font-family="Times,serif" font-size="16.00" fill="#000000">Dropped 11 nodes (cum &lt;= 4.61MB)</text>
 </a>
 </g>
 </g>
 <!-- N1 -->
 <g id="node1" class="node">
 <title>N1</title>
-<g id="a_node1"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate (554.55MB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="702.919,-478 391.081,-478 391.081,-398 702.919,-398 702.919,-478"/>
-<text text-anchor="middle" x="547" y="-459.6" font-family="Times,serif" font-size="18.00" fill="#000000">_/Users/karuppiah/Exercism/go/acronym</text>
-<text text-anchor="middle" x="547" y="-441.6" font-family="Times,serif" font-size="18.00" fill="#000000">Abbreviate</text>
-<text text-anchor="middle" x="547" y="-423.6" font-family="Times,serif" font-size="18.00" fill="#000000">126MB (22.62%)</text>
-<text text-anchor="middle" x="547" y="-405.6" font-family="Times,serif" font-size="18.00" fill="#000000">of 554.55MB (99.53%)</text>
+<g id="a_node1"><a xlink:title="strings.genSplit (666.09MB)">
+<polygon fill="#edd7d5" stroke="#b21000" points="654.8245,-166 439.1755,-166 439.1755,-86 654.8245,-86 654.8245,-166"/>
+<text text-anchor="middle" x="547" y="-142.8" font-family="Times,serif" font-size="24.00" fill="#000000">strings</text>
+<text text-anchor="middle" x="547" y="-118.8" font-family="Times,serif" font-size="24.00" fill="#000000">genSplit</text>
+<text text-anchor="middle" x="547" y="-94.8" font-family="Times,serif" font-size="24.00" fill="#000000">666.09MB (72.19%)</text>
 </a>
 </g>
 </g>
 <!-- NN1_0 -->
 <g id="NN1_0" class="node">
 <title>NN1_0</title>
-<g id="a_NN1_0"><a xlink:title="64.50MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="426,-348 376,-348 372,-344 372,-312 422,-312 426,-316 426,-348"/>
-<polyline fill="none" stroke="#000000" points="422,-344 372,-344 "/>
-<polyline fill="none" stroke="#000000" points="422,-344 422,-312 "/>
-<polyline fill="none" stroke="#000000" points="422,-344 426,-348 "/>
-<text text-anchor="middle" x="399" y="-327.6" font-family="Times,serif" font-size="8.00" fill="#000000">16B</text>
+<g id="a_NN1_0"><a xlink:title="225.55MB">
+<polygon fill="#f8f8f8" stroke="#000000" points="443,-36 393,-36 389,-32 389,0 439,0 443,-4 443,-36"/>
+<polyline fill="none" stroke="#000000" points="439,-32 389,-32 "/>
+<polyline fill="none" stroke="#000000" points="439,-32 439,0 "/>
+<polyline fill="none" stroke="#000000" points="439,-32 443,-36 "/>
+<text text-anchor="middle" x="416" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">240B</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;NN1_0 -->
 <g id="edge1" class="edge">
 <title>N1&#45;&gt;NN1_0</title>
-<g id="a_edge1"><a xlink:title="64.50MB">
-<path fill="none" stroke="#000000" d="M459.5514,-397.8363C450.954,-392.3799 442.667,-386.4229 435.2139,-380 427.5817,-373.4229 420.6719,-364.9345 414.9828,-356.8252"/>
-<polygon fill="#000000" stroke="#000000" points="417.759,-354.6787 409.3124,-348.2829 411.9269,-358.5501 417.759,-354.6787"/>
+<g id="a_edge1"><a xlink:title="225.55MB">
+<path fill="none" stroke="#000000" d="M452.8321,-85.9003C445.6404,-80.562 438.9591,-74.6105 433.2139,-68 427.854,-61.8329 424.1404,-53.9106 421.5762,-46.199"/>
+<polygon fill="#000000" stroke="#000000" points="424.886,-45.0382 418.8255,-36.3479 418.1439,-46.9208 424.886,-45.0382"/>
 </a>
 </g>
-<g id="a_edge1&#45;label"><a xlink:title="64.50MB">
-<text text-anchor="middle" x="464.3931" y="-368.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 64.50MB</text>
+<g id="a_edge1&#45;label"><a xlink:title="225.55MB">
+<text text-anchor="middle" x="465.8931" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 225.55MB</text>
 </a>
 </g>
 </g>
 <!-- NN1_1 -->
 <g id="NN1_1" class="node">
 <title>NN1_1</title>
-<g id="a_NN1_1"><a xlink:title="25MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="502,-348 452,-348 448,-344 448,-312 498,-312 502,-316 502,-348"/>
-<polyline fill="none" stroke="#000000" points="498,-344 448,-344 "/>
-<polyline fill="none" stroke="#000000" points="498,-344 498,-312 "/>
-<polyline fill="none" stroke="#000000" points="498,-344 502,-348 "/>
-<text text-anchor="middle" x="475" y="-327.6" font-family="Times,serif" font-size="8.00" fill="#000000">48B</text>
+<g id="a_NN1_1"><a xlink:title="178.01MB">
+<polygon fill="#f8f8f8" stroke="#000000" points="530,-36 480,-36 476,-32 476,0 526,0 530,-4 530,-36"/>
+<polyline fill="none" stroke="#000000" points="526,-32 476,-32 "/>
+<polyline fill="none" stroke="#000000" points="526,-32 526,0 "/>
+<polyline fill="none" stroke="#000000" points="526,-32 530,-36 "/>
+<text text-anchor="middle" x="503" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">64B</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;NN1_1 -->
 <g id="edge2" class="edge">
 <title>N1&#45;&gt;NN1_1</title>
-<g id="a_edge2"><a xlink:title="25MB">
-<path fill="none" stroke="#000000" d="M516.0952,-397.88C511.8213,-391.9641 507.577,-385.8808 503.7139,-380 498.9994,-372.8232 494.2204,-364.842 489.9494,-357.4013"/>
-<polygon fill="#000000" stroke="#000000" points="492.8153,-355.3578 484.8544,-348.3667 486.718,-358.7964 492.8153,-355.3578"/>
+<g id="a_edge2"><a xlink:title="178.01MB">
+<path fill="none" stroke="#000000" d="M511.6928,-85.7171C508.2467,-80.0662 505.2713,-74.0967 503.2139,-68 500.9014,-61.1476 500.0715,-53.4598 500.004,-46.206"/>
+<polygon fill="#000000" stroke="#000000" points="503.5079,-46.1552 500.3668,-36.0368 496.5124,-45.9056 503.5079,-46.1552"/>
 </a>
 </g>
-<g id="a_edge2&#45;label"><a xlink:title="25MB">
-<text text-anchor="middle" x="523.6431" y="-368.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 25MB</text>
+<g id="a_edge2&#45;label"><a xlink:title="178.01MB">
+<text text-anchor="middle" x="535.8931" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 178.01MB</text>
 </a>
 </g>
 </g>
 <!-- NN1_2 -->
 <g id="NN1_2" class="node">
 <title>NN1_2</title>
-<g id="a_NN1_2"><a xlink:title="22MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="574,-348 524,-348 520,-344 520,-312 570,-312 574,-316 574,-348"/>
-<polyline fill="none" stroke="#000000" points="570,-344 520,-344 "/>
-<polyline fill="none" stroke="#000000" points="570,-344 570,-312 "/>
-<polyline fill="none" stroke="#000000" points="570,-344 574,-348 "/>
-<text text-anchor="middle" x="547" y="-327.6" font-family="Times,serif" font-size="8.00" fill="#000000">64B..240B</text>
+<g id="a_NN1_2"><a xlink:title="147.02MB">
+<polygon fill="#f8f8f8" stroke="#000000" points="617,-36 567,-36 563,-32 563,0 613,0 617,-4 617,-36"/>
+<polyline fill="none" stroke="#000000" points="613,-32 563,-32 "/>
+<polyline fill="none" stroke="#000000" points="613,-32 613,0 "/>
+<polyline fill="none" stroke="#000000" points="613,-32 617,-36 "/>
+<text text-anchor="middle" x="590" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">144B</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;NN1_2 -->
 <g id="edge3" class="edge">
 <title>N1&#45;&gt;NN1_2</title>
-<g id="a_edge3"><a xlink:title="22MB">
-<path fill="none" stroke="#000000" d="M547,-397.7848C547,-384.7445 547,-370.5548 547,-358.5439"/>
-<polygon fill="#000000" stroke="#000000" points="550.5001,-358.2214 547,-348.2215 543.5001,-358.2215 550.5001,-358.2214"/>
+<g id="a_edge3"><a xlink:title="147.02MB">
+<path fill="none" stroke="#000000" d="M563.0116,-85.7848C568.3095,-72.4784 574.0839,-57.9752 578.927,-45.8113"/>
+<polygon fill="#000000" stroke="#000000" points="582.2978,-46.8069 582.7452,-36.2215 575.7943,-44.2175 582.2978,-46.8069"/>
 </a>
 </g>
-<g id="a_edge3&#45;label"><a xlink:title="22MB">
-<text text-anchor="middle" x="566.6431" y="-368.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 22MB</text>
+<g id="a_edge3&#45;label"><a xlink:title="147.02MB">
+<text text-anchor="middle" x="605.8931" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 147.02MB</text>
 </a>
 </g>
 </g>
 <!-- NN1_3 -->
 <g id="NN1_3" class="node">
 <title>NN1_3</title>
-<g id="a_NN1_3"><a xlink:title="14.50MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="646,-348 596,-348 592,-344 592,-312 642,-312 646,-316 646,-348"/>
-<polyline fill="none" stroke="#000000" points="642,-344 592,-344 "/>
-<polyline fill="none" stroke="#000000" points="642,-344 642,-312 "/>
-<polyline fill="none" stroke="#000000" points="642,-344 646,-348 "/>
-<text text-anchor="middle" x="619" y="-327.6" font-family="Times,serif" font-size="8.00" fill="#000000">32B</text>
+<g id="a_NN1_3"><a xlink:title="115.50MB">
+<polygon fill="#f8f8f8" stroke="#000000" points="704,-36 654,-36 650,-32 650,0 700,0 704,-4 704,-36"/>
+<polyline fill="none" stroke="#000000" points="700,-32 650,-32 "/>
+<polyline fill="none" stroke="#000000" points="700,-32 700,0 "/>
+<polyline fill="none" stroke="#000000" points="700,-32 704,-36 "/>
+<text text-anchor="middle" x="677" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">32B..48B</text>
 </a>
 </g>
 </g>
 <!-- N1&#45;&gt;NN1_3 -->
 <g id="edge4" class="edge">
 <title>N1&#45;&gt;NN1_3</title>
-<g id="a_edge4"><a xlink:title="14.50MB">
-<path fill="none" stroke="#000000" d="M577.6645,-397.8506C581.9154,-391.9391 586.1427,-385.8648 590,-380 594.7302,-372.808 599.5465,-364.8218 603.8601,-357.3812"/>
-<polygon fill="#000000" stroke="#000000" points="607.0974,-358.7696 609.0109,-348.349 601.0167,-355.302 607.0974,-358.7696"/>
+<g id="a_edge4"><a xlink:title="115.50MB">
+<path fill="none" stroke="#000000" d="M619.8433,-85.9291C627.6738,-80.3583 635.2392,-74.3503 642,-68 649.2599,-61.1809 655.9072,-52.6283 661.413,-44.5345"/>
+<polygon fill="#000000" stroke="#000000" points="664.4185,-46.3325 666.9144,-36.0358 658.5421,-42.5287 664.4185,-46.3325"/>
 </a>
 </g>
-<g id="a_edge4&#45;label"><a xlink:title="14.50MB">
-<text text-anchor="middle" x="626.3931" y="-368.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 14.50MB</text>
-</a>
-</g>
-</g>
-<!-- N4 -->
-<g id="node4" class="node">
-<title>N4</title>
-<g id="a_node4"><a xlink:title="strings.Replace (87.50MB)">
-<polygon fill="#ede2da" stroke="#b26226" points="705.1883,-275 556.8117,-275 556.8117,-216 705.1883,-216 705.1883,-275"/>
-<text text-anchor="middle" x="631" y="-257.4" font-family="Times,serif" font-size="17.00" fill="#000000">strings</text>
-<text text-anchor="middle" x="631" y="-240.4" font-family="Times,serif" font-size="17.00" fill="#000000">Replace</text>
-<text text-anchor="middle" x="631" y="-223.4" font-family="Times,serif" font-size="17.00" fill="#000000">87.50MB (15.71%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N4 -->
-<g id="edge15" class="edge">
-<title>N1&#45;&gt;N4</title>
-<g id="a_edge15"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Replace (87.50MB)">
-<path fill="none" stroke="#b26226" d="M644.3872,-397.5952C650.0299,-392.3893 655.0172,-386.5478 659,-380 676.651,-350.9819 666.0011,-312.6294 653.0739,-284.3061"/>
-<polygon fill="#b26226" stroke="#b26226" points="656.1368,-282.5999 648.6401,-275.1133 649.8319,-285.6409 656.1368,-282.5999"/>
-</a>
-</g>
-<g id="a_edge15&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Replace (87.50MB)">
-<text text-anchor="middle" x="696.3931" y="-325.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 87.50MB</text>
-</a>
-</g>
-</g>
-<!-- N6 -->
-<g id="node6" class="node">
-<title>N6</title>
-<g id="a_node6"><a xlink:title="strings.Split (341.04MB)">
-<polygon fill="#edd8d5" stroke="#b21800" points="832.6055,-263.5 735.3945,-263.5 735.3945,-227.5 832.6055,-227.5 832.6055,-263.5"/>
-<text text-anchor="middle" x="784" y="-251.1" font-family="Times,serif" font-size="8.00" fill="#000000">strings</text>
-<text text-anchor="middle" x="784" y="-243.1" font-family="Times,serif" font-size="8.00" fill="#000000">Split</text>
-<text text-anchor="middle" x="784" y="-235.1" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 341.04MB (61.21%)</text>
-</a>
-</g>
-</g>
-<!-- N1&#45;&gt;N6 -->
-<g id="edge13" class="edge">
-<title>N1&#45;&gt;N6</title>
-<g id="a_edge13"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Split (341.04MB)">
-<path fill="none" stroke="#b21800" stroke-width="4" d="M658.6464,-397.985C684.0834,-384.9878 709.3658,-368.4862 729,-348 749.7214,-326.3793 764.8914,-295.414 773.9885,-273.1844"/>
-<polygon fill="#b21800" stroke="#b21800" stroke-width="4" points="777.3352,-274.2376 777.739,-263.6504 770.8211,-271.675 777.3352,-274.2376"/>
-</a>
-</g>
-<g id="a_edge13&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Split (341.04MB)">
-<text text-anchor="middle" x="785.8931" y="-325.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 341.04MB</text>
+<g id="a_edge4&#45;label"><a xlink:title="115.50MB">
+<text text-anchor="middle" x="685.6367" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 115.50MB</text>
 </a>
 </g>
 </g>
 <!-- N2 -->
 <g id="node2" class="node">
 <title>N2</title>
-<g id="a_node2"><a xlink:title="strings.genSplit (341.04MB)">
-<polygon fill="#edd8d5" stroke="#b21800" points="891.8245,-166 676.1755,-166 676.1755,-86 891.8245,-86 891.8245,-166"/>
-<text text-anchor="middle" x="784" y="-142.8" font-family="Times,serif" font-size="24.00" fill="#000000">strings</text>
-<text text-anchor="middle" x="784" y="-118.8" font-family="Times,serif" font-size="24.00" fill="#000000">genSplit</text>
-<text text-anchor="middle" x="784" y="-94.8" font-family="Times,serif" font-size="24.00" fill="#000000">341.04MB (61.21%)</text>
+<g id="a_node2"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate (920.10MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="620.5203,-366 473.4797,-366 473.4797,-330 620.5203,-330 620.5203,-366"/>
+<text text-anchor="middle" x="547" y="-353.6" font-family="Times,serif" font-size="8.00" fill="#000000">_/Users/karuppiah/Exercism/go/acronym</text>
+<text text-anchor="middle" x="547" y="-345.6" font-family="Times,serif" font-size="8.00" fill="#000000">Abbreviate</text>
+<text text-anchor="middle" x="547" y="-337.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 920.10MB (99.72%)</text>
 </a>
 </g>
 </g>
-<!-- NN2_0 -->
-<g id="NN2_0" class="node">
-<title>NN2_0</title>
-<g id="a_NN2_0"><a xlink:title="115.53MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="685,-36 635,-36 631,-32 631,0 681,0 685,-4 685,-36"/>
-<polyline fill="none" stroke="#000000" points="681,-32 631,-32 "/>
-<polyline fill="none" stroke="#000000" points="681,-32 681,0 "/>
-<polyline fill="none" stroke="#000000" points="681,-32 685,-36 "/>
-<text text-anchor="middle" x="658" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">240B</text>
+<!-- N4 -->
+<g id="node4" class="node">
+<title>N4</title>
+<g id="a_node4"><a xlink:title="strings.Replace (175.51MB)">
+<polygon fill="#eddfd6" stroke="#b24b08" points="316.6881,-277.5 159.3119,-277.5 159.3119,-218.5 316.6881,-218.5 316.6881,-277.5"/>
+<text text-anchor="middle" x="238" y="-259.9" font-family="Times,serif" font-size="17.00" fill="#000000">strings</text>
+<text text-anchor="middle" x="238" y="-242.9" font-family="Times,serif" font-size="17.00" fill="#000000">Replace</text>
+<text text-anchor="middle" x="238" y="-225.9" font-family="Times,serif" font-size="17.00" fill="#000000">175.51MB (19.02%)</text>
 </a>
 </g>
 </g>
-<!-- N2&#45;&gt;NN2_0 -->
-<g id="edge5" class="edge">
-<title>N2&#45;&gt;NN2_0</title>
-<g id="a_edge5"><a xlink:title="115.53MB">
-<path fill="none" stroke="#000000" d="M693.7563,-85.8057C686.7653,-80.4779 680.2797,-74.5552 674.7266,-68 669.4608,-61.7841 665.8348,-53.8469 663.3447,-46.1366"/>
-<polygon fill="#000000" stroke="#000000" points="666.6726,-45.0347 660.6834,-36.2952 659.9153,-46.8621 666.6726,-45.0347"/>
+<!-- N2&#45;&gt;N4 -->
+<g id="edge12" class="edge">
+<title>N2&#45;&gt;N4</title>
+<g id="a_edge12"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Replace (175.51MB)">
+<path fill="none" stroke="#b24b08" d="M473.3964,-332.3854C449.2396,-326.6795 422.3943,-319.7116 398.2139,-312 370.7658,-303.2463 341.3258,-292.0355 315.2657,-281.4499"/>
+<polygon fill="#b24b08" stroke="#b24b08" points="316.408,-278.1356 305.8275,-277.5839 313.7547,-284.6132 316.408,-278.1356"/>
 </a>
 </g>
-<g id="a_edge5&#45;label"><a xlink:title="115.53MB">
-<text text-anchor="middle" x="705.6367" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 115.53MB</text>
-</a>
-</g>
-</g>
-<!-- NN2_1 -->
-<g id="NN2_1" class="node">
-<title>NN2_1</title>
-<g id="a_NN2_1"><a xlink:title="92.01MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="771,-36 721,-36 717,-32 717,0 767,0 771,-4 771,-36"/>
-<polyline fill="none" stroke="#000000" points="767,-32 717,-32 "/>
-<polyline fill="none" stroke="#000000" points="767,-32 767,0 "/>
-<polyline fill="none" stroke="#000000" points="767,-32 771,-36 "/>
-<text text-anchor="middle" x="744" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">64B</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;NN2_1 -->
-<g id="edge6" class="edge">
-<title>N2&#45;&gt;NN2_1</title>
-<g id="a_edge6"><a xlink:title="92.01MB">
-<path fill="none" stroke="#000000" d="M753.1711,-85.9739C749.9518,-80.1923 747.1531,-74.1203 745.2139,-68 743.064,-61.215 742.1664,-53.6489 741.9396,-46.4975"/>
-<polygon fill="#000000" stroke="#000000" points="745.4397,-46.4835 742.0195,-36.4559 738.4399,-46.4277 745.4397,-46.4835"/>
-</a>
-</g>
-<g id="a_edge6&#45;label"><a xlink:title="92.01MB">
-<text text-anchor="middle" x="773.3931" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 92.01MB</text>
-</a>
-</g>
-</g>
-<!-- NN2_2 -->
-<g id="NN2_2" class="node">
-<title>NN2_2</title>
-<g id="a_NN2_2"><a xlink:title="69.01MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="851,-36 801,-36 797,-32 797,0 847,0 851,-4 851,-36"/>
-<polyline fill="none" stroke="#000000" points="847,-32 797,-32 "/>
-<polyline fill="none" stroke="#000000" points="847,-32 847,0 "/>
-<polyline fill="none" stroke="#000000" points="847,-32 851,-36 "/>
-<text text-anchor="middle" x="824" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">144B</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;NN2_2 -->
-<g id="edge7" class="edge">
-<title>N2&#45;&gt;NN2_2</title>
-<g id="a_edge7"><a xlink:title="69.01MB">
-<path fill="none" stroke="#000000" d="M798.8945,-85.7848C803.8228,-72.4784 809.1944,-57.9752 813.6995,-45.8113"/>
-<polygon fill="#000000" stroke="#000000" points="817.0602,-46.8146 817.2513,-36.2215 810.496,-44.3833 817.0602,-46.8146"/>
-</a>
-</g>
-<g id="a_edge7&#45;label"><a xlink:title="69.01MB">
-<text text-anchor="middle" x="837.3931" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 69.01MB</text>
-</a>
-</g>
-</g>
-<!-- NN2_3 -->
-<g id="NN2_3" class="node">
-<title>NN2_3</title>
-<g id="a_NN2_3"><a xlink:title="64.50MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="931,-36 881,-36 877,-32 877,0 927,0 931,-4 931,-36"/>
-<polyline fill="none" stroke="#000000" points="927,-32 877,-32 "/>
-<polyline fill="none" stroke="#000000" points="927,-32 927,0 "/>
-<polyline fill="none" stroke="#000000" points="927,-32 931,-36 "/>
-<text text-anchor="middle" x="904" y="-15.6" font-family="Times,serif" font-size="8.00" fill="#000000">32B..48B</text>
-</a>
-</g>
-</g>
-<!-- N2&#45;&gt;NN2_3 -->
-<g id="edge8" class="edge">
-<title>N2&#45;&gt;NN2_3</title>
-<g id="a_edge8"><a xlink:title="64.50MB">
-<path fill="none" stroke="#000000" d="M849.4915,-85.7769C856.7392,-80.1964 863.7484,-74.2278 870,-68 876.8083,-61.2177 883.0952,-52.8921 888.363,-44.9943"/>
-<polygon fill="#000000" stroke="#000000" points="891.4382,-46.6808 893.8509,-36.3643 885.5314,-42.9246 891.4382,-46.6808"/>
-</a>
-</g>
-<g id="a_edge8&#45;label"><a xlink:title="64.50MB">
-<text text-anchor="middle" x="909.3931" y="-56.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 64.50MB</text>
-</a>
-</g>
-</g>
-<!-- N3 -->
-<g id="node3" class="node">
-<title>N3</title>
-<g id="a_node3"><a xlink:title="testing.(*B).launch (554.55MB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="595.6055,-768 498.3945,-768 498.3945,-728 595.6055,-728 595.6055,-768"/>
-<text text-anchor="middle" x="547" y="-757.6" font-family="Times,serif" font-size="8.00" fill="#000000">testing</text>
-<text text-anchor="middle" x="547" y="-749.6" font-family="Times,serif" font-size="8.00" fill="#000000">(*B)</text>
-<text text-anchor="middle" x="547" y="-741.6" font-family="Times,serif" font-size="8.00" fill="#000000">launch</text>
-<text text-anchor="middle" x="547" y="-733.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 554.55MB (99.53%)</text>
-</a>
-</g>
-</g>
-<!-- N7 -->
-<g id="node7" class="node">
-<title>N7</title>
-<g id="a_node7"><a xlink:title="testing.(*B).runN (554.55MB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="595.6055,-654 498.3945,-654 498.3945,-614 595.6055,-614 595.6055,-654"/>
-<text text-anchor="middle" x="547" y="-643.6" font-family="Times,serif" font-size="8.00" fill="#000000">testing</text>
-<text text-anchor="middle" x="547" y="-635.6" font-family="Times,serif" font-size="8.00" fill="#000000">(*B)</text>
-<text text-anchor="middle" x="547" y="-627.6" font-family="Times,serif" font-size="8.00" fill="#000000">runN</text>
-<text text-anchor="middle" x="547" y="-619.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 554.55MB (99.53%)</text>
-</a>
-</g>
-</g>
-<!-- N3&#45;&gt;N7 -->
-<g id="edge11" class="edge">
-<title>N3&#45;&gt;N7</title>
-<g id="a_edge11"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (554.55MB)">
-<path fill="none" stroke="#b20000" stroke-width="5" d="M547,-727.8815C547,-710.3264 547,-684.5919 547,-664.5041"/>
-<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="551.3751,-664.3008 547,-654.3008 542.6251,-664.3009 551.3751,-664.3008"/>
-</a>
-</g>
-<g id="a_edge11&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (554.55MB)">
-<text text-anchor="middle" x="578.8931" y="-674.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 554.55MB</text>
-</a>
-</g>
-</g>
-<!-- NN4_0 -->
-<g id="NN4_0" class="node">
-<title>NN4_0</title>
-<g id="a_NN4_0"><a xlink:title="87.50MB">
-<polygon fill="#f8f8f8" stroke="#000000" points="658,-144 608,-144 604,-140 604,-108 654,-108 658,-112 658,-144"/>
-<polyline fill="none" stroke="#000000" points="654,-140 604,-140 "/>
-<polyline fill="none" stroke="#000000" points="654,-140 654,-108 "/>
-<polyline fill="none" stroke="#000000" points="654,-140 658,-144 "/>
-<text text-anchor="middle" x="631" y="-123.6" font-family="Times,serif" font-size="8.00" fill="#000000">48B</text>
-</a>
-</g>
-</g>
-<!-- N4&#45;&gt;NN4_0 -->
-<g id="edge9" class="edge">
-<title>N4&#45;&gt;NN4_0</title>
-<g id="a_edge9"><a xlink:title="87.50MB">
-<path fill="none" stroke="#000000" d="M631,-215.9607C631,-197.1255 631,-172.855 631,-154.2711"/>
-<polygon fill="#000000" stroke="#000000" points="634.5001,-154.0703 631,-144.0704 627.5001,-154.0704 634.5001,-154.0703"/>
-</a>
-</g>
-<g id="a_edge9&#45;label"><a xlink:title="87.50MB">
-<text text-anchor="middle" x="659.3931" y="-186.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 87.50MB</text>
+<g id="a_edge12&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Replace (175.51MB)">
+<text text-anchor="middle" x="430.8931" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 175.51MB</text>
 </a>
 </g>
 </g>
 <!-- N5 -->
 <g id="node5" class="node">
 <title>N5</title>
-<g id="a_node5"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym (554.55MB)">
-<polygon fill="#edd5d5" stroke="#b20000" points="620.5203,-564 473.4797,-564 473.4797,-528 620.5203,-528 620.5203,-564"/>
-<text text-anchor="middle" x="547" y="-551.6" font-family="Times,serif" font-size="8.00" fill="#000000">_/Users/karuppiah/Exercism/go/acronym</text>
-<text text-anchor="middle" x="547" y="-543.6" font-family="Times,serif" font-size="8.00" fill="#000000">BenchmarkAcronym</text>
-<text text-anchor="middle" x="547" y="-535.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 554.55MB (99.53%)</text>
+<g id="a_node5"><a xlink:title="strings.(*Builder).WriteRune (78.50MB)">
+<polygon fill="#ede8e3" stroke="#b28e66" points="453.2728,-280 334.7272,-280 334.7272,-216 453.2728,-216 453.2728,-280"/>
+<text text-anchor="middle" x="394" y="-264.8" font-family="Times,serif" font-size="14.00" fill="#000000">strings</text>
+<text text-anchor="middle" x="394" y="-250.8" font-family="Times,serif" font-size="14.00" fill="#000000">(*Builder)</text>
+<text text-anchor="middle" x="394" y="-236.8" font-family="Times,serif" font-size="14.00" fill="#000000">WriteRune</text>
+<text text-anchor="middle" x="394" y="-222.8" font-family="Times,serif" font-size="14.00" fill="#000000">78.50MB (8.51%)</text>
 </a>
 </g>
 </g>
-<!-- N5&#45;&gt;N1 -->
+<!-- N2&#45;&gt;N5 -->
+<g id="edge13" class="edge">
+<title>N2&#45;&gt;N5</title>
+<g id="a_edge13"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.(*Builder).WriteRune (78.50MB)">
+<path fill="none" stroke="#b28e66" d="M515.5011,-329.9271C506.002,-324.3214 495.6062,-318.0296 486.2139,-312 473.5559,-303.8741 460.1478,-294.83 447.5927,-286.1602"/>
+<polygon fill="#b28e66" stroke="#b28e66" points="449.2671,-283.0619 439.0567,-280.2338 445.2749,-288.8119 449.2671,-283.0619"/>
+</a>
+</g>
+<g id="a_edge13&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.(*Builder).WriteRune (78.50MB)">
+<text text-anchor="middle" x="515.3931" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 78.50MB</text>
+</a>
+</g>
+</g>
+<!-- N7 -->
+<g id="node7" class="node">
+<title>N7</title>
+<g id="a_node7"><a xlink:title="strings.Split (666.09MB)">
+<polygon fill="#edd7d5" stroke="#b21000" points="595.6055,-266 498.3945,-266 498.3945,-230 595.6055,-230 595.6055,-266"/>
+<text text-anchor="middle" x="547" y="-253.6" font-family="Times,serif" font-size="8.00" fill="#000000">strings</text>
+<text text-anchor="middle" x="547" y="-245.6" font-family="Times,serif" font-size="8.00" fill="#000000">Split</text>
+<text text-anchor="middle" x="547" y="-237.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 666.09MB (72.19%)</text>
+</a>
+</g>
+</g>
+<!-- N2&#45;&gt;N7 -->
 <g id="edge10" class="edge">
-<title>N5&#45;&gt;N1</title>
-<g id="a_edge10"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.Abbreviate (554.55MB)">
-<path fill="none" stroke="#b20000" stroke-width="5" d="M547,-527.6793C547,-516.8316 547,-502.5069 547,-488.4979"/>
-<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="551.3751,-488.4072 547,-478.4072 542.6251,-488.4073 551.3751,-488.4072"/>
+<title>N2&#45;&gt;N7</title>
+<g id="a_edge10"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Split (666.09MB)">
+<path fill="none" stroke="#b21000" stroke-width="4" d="M547,-329.6585C547,-314.7164 547,-293.3665 547,-276.2446"/>
+<polygon fill="#b21000" stroke="#b21000" stroke-width="4" points="550.5001,-276.2252 547,-266.2253 543.5001,-276.2253 550.5001,-276.2252"/>
 </a>
 </g>
-<g id="a_edge10&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.Abbreviate (554.55MB)">
-<text text-anchor="middle" x="578.8931" y="-498.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 554.55MB</text>
+<g id="a_edge10&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.Abbreviate &#45;&gt; strings.Split (666.09MB)">
+<text text-anchor="middle" x="578.8931" y="-300.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 666.09MB</text>
+</a>
+</g>
+</g>
+<!-- N3 -->
+<g id="node3" class="node">
+<title>N3</title>
+<g id="a_node3"><a xlink:title="testing.(*B).launch (920.10MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="595.6055,-656 498.3945,-656 498.3945,-616 595.6055,-616 595.6055,-656"/>
+<text text-anchor="middle" x="547" y="-645.6" font-family="Times,serif" font-size="8.00" fill="#000000">testing</text>
+<text text-anchor="middle" x="547" y="-637.6" font-family="Times,serif" font-size="8.00" fill="#000000">(*B)</text>
+<text text-anchor="middle" x="547" y="-629.6" font-family="Times,serif" font-size="8.00" fill="#000000">launch</text>
+<text text-anchor="middle" x="547" y="-621.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 920.10MB (99.72%)</text>
+</a>
+</g>
+</g>
+<!-- N8 -->
+<g id="node8" class="node">
+<title>N8</title>
+<g id="a_node8"><a xlink:title="testing.(*B).runN (920.10MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="595.6055,-542 498.3945,-542 498.3945,-502 595.6055,-502 595.6055,-542"/>
+<text text-anchor="middle" x="547" y="-531.6" font-family="Times,serif" font-size="8.00" fill="#000000">testing</text>
+<text text-anchor="middle" x="547" y="-523.6" font-family="Times,serif" font-size="8.00" fill="#000000">(*B)</text>
+<text text-anchor="middle" x="547" y="-515.6" font-family="Times,serif" font-size="8.00" fill="#000000">runN</text>
+<text text-anchor="middle" x="547" y="-507.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 920.10MB (99.72%)</text>
+</a>
+</g>
+</g>
+<!-- N3&#45;&gt;N8 -->
+<g id="edge8" class="edge">
+<title>N3&#45;&gt;N8</title>
+<g id="a_edge8"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (920.10MB)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M547,-615.8815C547,-598.3264 547,-572.5919 547,-552.5041"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="551.3751,-552.3008 547,-542.3008 542.6251,-552.3009 551.3751,-552.3008"/>
+</a>
+</g>
+<g id="a_edge8&#45;label"><a xlink:title="testing.(*B).launch &#45;&gt; testing.(*B).runN (920.10MB)">
+<text text-anchor="middle" x="578.8931" y="-562.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 920.10MB</text>
+</a>
+</g>
+</g>
+<!-- NN4_0 -->
+<g id="NN4_0" class="node">
+<title>NN4_0</title>
+<g id="a_NN4_0"><a xlink:title="175.51MB">
+<polygon fill="#f8f8f8" stroke="#000000" points="265,-144 215,-144 211,-140 211,-108 261,-108 265,-112 265,-144"/>
+<polyline fill="none" stroke="#000000" points="261,-140 211,-140 "/>
+<polyline fill="none" stroke="#000000" points="261,-140 261,-108 "/>
+<polyline fill="none" stroke="#000000" points="261,-140 265,-144 "/>
+<text text-anchor="middle" x="238" y="-123.6" font-family="Times,serif" font-size="8.00" fill="#000000">48B</text>
+</a>
+</g>
+</g>
+<!-- N4&#45;&gt;NN4_0 -->
+<g id="edge5" class="edge">
+<title>N4&#45;&gt;NN4_0</title>
+<g id="a_edge5"><a xlink:title="175.51MB">
+<path fill="none" stroke="#000000" d="M238,-218.4672C238,-199.0411 238,-173.7519 238,-154.5319"/>
+<polygon fill="#000000" stroke="#000000" points="241.5001,-154.2811 238,-144.2811 234.5001,-154.2812 241.5001,-154.2811"/>
+</a>
+</g>
+<g id="a_edge5&#45;label"><a xlink:title="175.51MB">
+<text text-anchor="middle" x="269.8931" y="-186.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 175.51MB</text>
+</a>
+</g>
+</g>
+<!-- NN5_0 -->
+<g id="NN5_0" class="node">
+<title>NN5_0</title>
+<g id="a_NN5_0"><a xlink:title="78.50MB">
+<polygon fill="#f8f8f8" stroke="#000000" points="421,-144 371,-144 367,-140 367,-108 417,-108 421,-112 421,-144"/>
+<polyline fill="none" stroke="#000000" points="417,-140 367,-140 "/>
+<polyline fill="none" stroke="#000000" points="417,-140 417,-108 "/>
+<polyline fill="none" stroke="#000000" points="417,-140 421,-144 "/>
+<text text-anchor="middle" x="394" y="-123.6" font-family="Times,serif" font-size="8.00" fill="#000000">16B</text>
+</a>
+</g>
+</g>
+<!-- N5&#45;&gt;NN5_0 -->
+<g id="edge6" class="edge">
+<title>N5&#45;&gt;NN5_0</title>
+<g id="a_edge6"><a xlink:title="78.50MB">
+<path fill="none" stroke="#000000" d="M394,-215.9459C394,-196.8247 394,-172.7637 394,-154.3398"/>
+<polygon fill="#000000" stroke="#000000" points="397.5001,-154.2234 394,-144.2234 390.5001,-154.2235 397.5001,-154.2234"/>
+</a>
+</g>
+<g id="a_edge6&#45;label"><a xlink:title="78.50MB">
+<text text-anchor="middle" x="422.3931" y="-186.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 78.50MB</text>
+</a>
+</g>
+</g>
+<!-- N6 -->
+<g id="node6" class="node">
+<title>N6</title>
+<g id="a_node6"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym (920.10MB)">
+<polygon fill="#edd5d5" stroke="#b20000" points="620.5203,-452 473.4797,-452 473.4797,-416 620.5203,-416 620.5203,-452"/>
+<text text-anchor="middle" x="547" y="-439.6" font-family="Times,serif" font-size="8.00" fill="#000000">_/Users/karuppiah/Exercism/go/acronym</text>
+<text text-anchor="middle" x="547" y="-431.6" font-family="Times,serif" font-size="8.00" fill="#000000">BenchmarkAcronym</text>
+<text text-anchor="middle" x="547" y="-423.6" font-family="Times,serif" font-size="8.00" fill="#000000">0 of 920.10MB (99.72%)</text>
 </a>
 </g>
 </g>
 <!-- N6&#45;&gt;N2 -->
-<g id="edge14" class="edge">
+<g id="edge7" class="edge">
 <title>N6&#45;&gt;N2</title>
-<g id="a_edge14"><a xlink:title="strings.Split &#45;&gt; strings.genSplit (341.04MB)">
-<path fill="none" stroke="#b21800" stroke-width="4" d="M784,-227.3505C784,-213.7513 784,-194.4444 784,-176.3239"/>
-<polygon fill="#b21800" stroke="#b21800" stroke-width="4" points="787.5001,-176.1346 784,-166.1346 780.5001,-176.1346 787.5001,-176.1346"/>
+<g id="a_edge7"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.Abbreviate (920.10MB)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M547,-415.7616C547,-404.3597 547,-389.4342 547,-376.494"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="551.3751,-376.2121 547,-366.2121 542.6251,-376.2121 551.3751,-376.2121"/>
 </a>
 </g>
-<g id="a_edge14&#45;label"><a xlink:title="strings.Split &#45;&gt; strings.genSplit (341.04MB)">
-<text text-anchor="middle" x="815.8931" y="-186.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 341.04MB</text>
+<g id="a_edge7&#45;label"><a xlink:title="_/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.Abbreviate (920.10MB)">
+<text text-anchor="middle" x="578.8931" y="-386.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 920.10MB</text>
 </a>
 </g>
 </g>
-<!-- N7&#45;&gt;N5 -->
-<g id="edge12" class="edge">
-<title>N7&#45;&gt;N5</title>
-<g id="a_edge12"><a xlink:title="testing.(*B).runN &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym (554.55MB)">
-<path fill="none" stroke="#b20000" stroke-width="5" d="M547,-613.5898C547,-601.9278 547,-587.1267 547,-574.35"/>
-<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="551.3751,-574.2069 547,-564.207 542.6251,-574.207 551.3751,-574.2069"/>
+<!-- N7&#45;&gt;N1 -->
+<g id="edge11" class="edge">
+<title>N7&#45;&gt;N1</title>
+<g id="a_edge11"><a xlink:title="strings.Split &#45;&gt; strings.genSplit (666.09MB)">
+<path fill="none" stroke="#b21000" stroke-width="4" d="M547,-229.9985C547,-215.7839 547,-195.2311 547,-176.1438"/>
+<polygon fill="#b21000" stroke="#b21000" stroke-width="4" points="550.5001,-176.0397 547,-166.0398 543.5001,-176.0398 550.5001,-176.0397"/>
 </a>
 </g>
-<g id="a_edge12&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym (554.55MB)">
-<text text-anchor="middle" x="578.8931" y="-584.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 554.55MB</text>
+<g id="a_edge11&#45;label"><a xlink:title="strings.Split &#45;&gt; strings.genSplit (666.09MB)">
+<text text-anchor="middle" x="578.8931" y="-186.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 666.09MB</text>
+</a>
+</g>
+</g>
+<!-- N8&#45;&gt;N6 -->
+<g id="edge9" class="edge">
+<title>N8&#45;&gt;N6</title>
+<g id="a_edge9"><a xlink:title="testing.(*B).runN &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym (920.10MB)">
+<path fill="none" stroke="#b20000" stroke-width="5" d="M547,-501.5898C547,-489.9278 547,-475.1267 547,-462.35"/>
+<polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="551.3751,-462.2069 547,-452.207 542.6251,-462.207 551.3751,-462.2069"/>
+</a>
+</g>
+<g id="a_edge9&#45;label"><a xlink:title="testing.(*B).runN &#45;&gt; _/Users/karuppiah/Exercism/go/acronym.BenchmarkAcronym (920.10MB)">
+<text text-anchor="middle" x="578.8931" y="-472.8" font-family="Times,serif" font-size="14.00" fill="#000000"> 920.10MB</text>
 </a>
 </g>
 </g>

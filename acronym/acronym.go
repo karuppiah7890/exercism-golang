@@ -11,15 +11,15 @@ import (
 func Abbreviate(input string) string {
 	input = strings.Replace(input, "-", " ", -1)
 	words := strings.Split(input, " ")
-	abbreviation := make([]rune, 0, len(words))
+	abbreviation := strings.Builder{}
 
 	for _, word := range words {
 		if len(word) == 0 {
 			continue
 		}
 		letter := unicode.ToUpper(rune(word[0]))
-		abbreviation = append(abbreviation, letter)
+		abbreviation.WriteRune(letter)
 	}
 
-	return string(abbreviation)
+	return abbreviation.String()
 }
