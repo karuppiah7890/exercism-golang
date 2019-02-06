@@ -11,7 +11,7 @@ import (
 func Abbreviate(input string) string {
 	input = strings.Replace(input, "-", " ", -1)
 	words := strings.Split(input, " ")
-	abbreviation := make([]rune, 0)
+	abbreviation := make([]rune, 0, len(words))
 
 	for _, word := range words {
 		if len(word) == 0 {

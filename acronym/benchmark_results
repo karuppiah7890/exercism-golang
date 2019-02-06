@@ -2,6 +2,6 @@
 --- PASS: TestAcronym (0.00s)
 goos: darwin
 goarch: amd64
-BenchmarkAcronym-8   	  500000	      2869 ns/op	    1296 B/op	      38 allocs/op
+BenchmarkAcronym-8   	  500000	      2357 ns/op	    1192 B/op	      28 allocs/op
 PASS
-ok  	_/Users/karuppiah/Exercism/go/acronym	1.638s
+ok  	_/Users/karuppiah/Exercism/go/acronym	1.342s
