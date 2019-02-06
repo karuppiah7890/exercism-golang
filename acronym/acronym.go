@@ -9,16 +9,19 @@ import (
 
 // Abbreviate abbreviates a given sentence or phrase
 func Abbreviate(input string) string {
-	input = strings.Replace(input, "-", " ", -1)
-	words := strings.Split(input, " ")
 	abbreviation := strings.Builder{}
 
-	for _, word := range words {
-		if len(word) == 0 {
-			continue
+	for index, c := range input {
+		if index > 0 {
+			previous := rune(input[index-1])
+			if (previous == ' ' || previous == '-') && unicode.IsLetter(c) {
+				letter := unicode.ToUpper(c)
+				abbreviation.WriteRune(letter)
+			}
+		} else if unicode.IsLetter(c) {
+			letter := unicode.ToUpper(c)
+			abbreviation.WriteRune(letter)
 		}
-		letter := unicode.ToUpper(rune(word[0]))
-		abbreviation.WriteRune(letter)
 	}
 
 	return abbreviation.String()
