@@ -11,14 +11,15 @@ import (
 func Abbreviate(input string) string {
 	abbreviation := strings.Builder{}
 
-	for index, c := range input {
-		if index > 0 {
-			previous := rune(input[index-1])
-			if (previous == ' ' || previous == '-') && unicode.IsLetter(c) {
-				letter := unicode.ToUpper(c)
-				abbreviation.WriteRune(letter)
-			}
-		} else if unicode.IsLetter(c) {
+	firstLetter := rune(input[0])
+	if unicode.IsLetter(firstLetter) {
+		letter := unicode.ToUpper(firstLetter)
+		abbreviation.WriteRune(letter)
+	}
+	for index := 1; index < len(input); index++ {
+		c := rune(input[index])
+		previous := rune(input[index-1])
+		if (previous == ' ' || previous == '-') && unicode.IsLetter(c) {
 			letter := unicode.ToUpper(c)
 			abbreviation.WriteRune(letter)
 		}
