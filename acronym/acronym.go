@@ -10,18 +10,15 @@ import (
 // Abbreviate abbreviates a given sentence or phrase
 func Abbreviate(input string) string {
 	abbreviation := strings.Builder{}
-
-	firstLetter := rune(input[0])
-	if unicode.IsLetter(firstLetter) {
-		letter := unicode.ToUpper(firstLetter)
-		abbreviation.WriteRune(letter)
-	}
-	for index := 1; index < len(input); index++ {
-		c := rune(input[index])
-		previous := rune(input[index-1])
-		if (previous == ' ' || previous == '-') && unicode.IsLetter(c) {
-			letter := unicode.ToUpper(c)
-			abbreviation.WriteRune(letter)
+	betweenWords := true
+	for _, c := range input {
+		if c == ' ' || c == '-' {
+			betweenWords = true
+			continue
+		}
+		if betweenWords {
+			abbreviation.WriteRune(unicode.ToUpper(c))
+			betweenWords = false
 		}
 	}
 
