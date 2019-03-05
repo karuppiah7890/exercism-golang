@@ -32,24 +32,24 @@ func doubleDigit(d int) int {
 	return doubledValue
 }
 
-func doubleEverySecondDigitFromRight(digits []int) {
-	for i := len(digits) - 2; i >= 0; i -= 2 {
-		doubledDigit := doubleDigit(digits[i])
-		digits[i] = doubledDigit
-	}
-}
-
 func sum(digits []int) int {
 	sum := 0
-	for _, value := range digits {
-		sum += value
+	length := len(digits)
+	lengthIsOdd := length % 2
+
+	for index, digit := range digits {
+		if index%2 == lengthIsOdd {
+			value := doubleDigit(digit)
+			sum += value
+			continue
+		}
+		sum += digit
 	}
 	return sum
 }
 
 // Valid checks if a number is valid or not as per luhn's formula
 func Valid(number string) bool {
-
 	number = strings.Replace(number, " ", "", -1)
 
 	if len(number) <= 1 {
@@ -61,8 +61,6 @@ func Valid(number string) bool {
 	if err != nil {
 		return false
 	}
-
-	doubleEverySecondDigitFromRight(digits)
 
 	sumOfDigits := sum(digits)
 
