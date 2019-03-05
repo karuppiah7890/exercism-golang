@@ -1,0 +1,7 @@
+=== RUN   TestValid
+--- PASS: TestValid (0.00s)
+goos: darwin
+goarch: amd64
+BenchmarkValid-8   	10000000	       189 ns/op	     160 B/op	       3 allocs/op
+PASS
+ok  	_/Users/karuppiah/Exercism/go/luhn	2.092s
